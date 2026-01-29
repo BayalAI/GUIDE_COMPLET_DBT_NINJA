@@ -1,0 +1,43 @@
+{
+  "name": "dbt-ninja-guide",
+  "version": "1.0.0",
+  "description": "Guide DBT Complet - Application Web Interactive avec Vercel",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,json}\"",
+    "export": "next export"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "next-mdx-remote": "^5.0.0",
+    "gray-matter": "^4.0.3",
+    "fs-extra": "^11.1.1",
+    "shiki": "^0.14.5",
+    "zustand": "^4.4.1",
+    "fuse.js": "^7.0.0",
+    "clsx": "^2.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "prettier": "^3.1.0",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
